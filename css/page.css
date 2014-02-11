@@ -51,6 +51,24 @@ body {
   }
 }
 
+.table-light>thead>tr>th,
+.table-light>tbody>tr>th,
+.table-light>tfoot>tr>th,
+.table-light>thead>tr>td,
+.table-light>tbody>tr>td,
+.table-light>tfoot>tr>td {
+  border-top: 1px solid rgba(221, 221, 221, .3);
+}
+
+.table-light>thead>tr>th {
+  border-bottom: 2px solid rgba(221, 221, 221, .3);
+}
+
+.table-light.table-hover>tbody>tr:hover>td,
+.table-light.table-hover>tbody>tr:hover>th {
+  background-color: rgba(245, 245, 245, .3);
+}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
