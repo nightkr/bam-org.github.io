@@ -1,4 +1,5 @@
 bam-org.github.io
 =================
 
-Main project page
+Static website for information pertaining to the project.
+http://bam-org.github.io
