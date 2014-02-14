@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-size: cover;
+}
+
+@media (min-width: 1441px) {
+  body {
+    background-image: url("../img/bg-1-orig.png");
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1440px) {
+  body {
+    background-image: url("../img/bg-1-1440.png");
+  }
+}
+
+@media (max-width: 1080px) and (min-width: 721px) {
+  body {
+    background-image: url("../img/bg-1-1080.png");
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    background-image: url("../img/bg-1-720.png");
+  }
+}

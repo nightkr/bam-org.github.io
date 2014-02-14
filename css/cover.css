@@ -13,14 +13,6 @@ a:hover {
   border: 1px solid #fff;*/
 }
 
-html,
-body {
-  height: 100%;
-  /*background-color: #333;*/
-  /*background-image: url("http://cloud-4.steampowered.com/ugc/474300355624741913/9209D9F0963BF260B8F165439FCE165AD85DCDF6/");*/
-  background-image: url("https://hostr.co/file/NLqppDBtf4Nk/Blockland_06031.png");
-  background-size: cover;
-}
 body {
   color: #fff;
   text-align: center;
